@@ -4,6 +4,7 @@
 - WM: BSPWM
 - Keybinds: SXHKD
 - HUD: PolyBar
+  - Font: Iosevka
 - Terminal : Alacritty
 - Wallpaper : Nitrogen
 - GTK Theme
@@ -17,6 +18,4 @@
 - 
 
 ## TODO:
-- Notification daemon.
-- Get a normal font & add icons to polybar.
 - USB mounting.
