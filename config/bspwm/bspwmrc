@@ -16,6 +16,8 @@ else
   xrandr --output eDP-1 --mode 1920x1080 --rotate normal --dpi 138 --output HDMI-1 --off
 fi
 
+nitrogen --restore
+
 bspc monitor HDMI-1 -d 1 2 3 4 5
 bspc monitor eDP-1 -d 1 2 3 4 5
 
@@ -33,7 +35,6 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Gimp desktop='^8' state=tiled follow=on
-bspc rule -a irefox desktop='^2' state=tiled follow=on
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
@@ -41,4 +42,4 @@ bspc rule -a Screenkey manage=off
 # RANDOM RULES
 bspc rule -a Spotify desktop='^8'
 bspc rule -a Pavucontrol state=floating
-
+bspc rule -a pavucontrol state=floating

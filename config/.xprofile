@@ -1,0 +1,14 @@
+# ==== Visual Setup ====
+nitrogen --restore
+picom -bf
+
+# ==== Control Configuration ====
+xinput set-prop 12 304 1
+xinput set-prop 12 325 1
+
+# ==== DOTNET Configuration ====
+export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
+
+# ==== VARIABLES ====
+export NOTES=~/Documents/Work/Notes/
+
